@@ -1,0 +1,40 @@
+.mainBox{
+  text-align: center;
+}
+
+.btn{
+  cursor: pointer;
+  margin: .3rem;
+  height: 24px;
+  width: 45px;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: Arial;
+  border: none;
+  border-radius: .2rem;
+}
+
+.reset{
+  color: #fff;
+  background: #e91f18;
+  width: 54px;
+  font-weight: 400;
+}
+
+.reset:hover{
+  box-shadow: 0px 0px 0px 1px  #be1913 ;
+}
+
+.increment{
+  background: #00a9ec;
+  width: 87px;
+}
+.decrement{
+  background: #00a9ec;
+  width: 95px;
+}
+
+.increment:hover,
+.decrement:hover{
+  box-shadow: 0px 0px 0px 1px  #00a9ec ;
+}
